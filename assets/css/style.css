@@ -342,8 +342,9 @@ a,a:hover,a:focus,a:visited{
 /* header css start */ 
 .as_header_wrapper {
     background-color: rgb(17 16 17);
-    position: fixed;
-    top:0;
+    position: sticky;
+    /* position: fixed; */
+     top:0;
     left: 0;
     right: 0;
     z-index: 9;

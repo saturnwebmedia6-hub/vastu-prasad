@@ -43,10 +43,10 @@
                                 </span>
                                 <div class="as_menu">
                                     <ul>
-                                        <li><a href="index.html" >home</a></li>
+                                        <li><a href="index.html"class="active" >home</a></li>
                                         <li><a href="about.html">about us</a></li>
 
-                                        <li><a href="javascript:;"  class="active">Services</a>
+                                        <li><a href="javascript:;"  >Services</a>
                                             <ul class="as_submenu">
                                                 <li><a href="astrology.html">Astrology</a></li>
                                                 <li><a href="vastu-shastra.html">Vastu Shastra</a></li>
@@ -68,90 +68,44 @@
             </div>
         </section> 
         <!-- header end-->
-        <!-- <section class="as_banner_wrapper">
-            <div class="container">
-                <div class="row as_verticle_center">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="as_banner_slider">
-                            <div class="as_banner_detail">
-                                <h5>Trust our experience</h5>
-                                <h1>Start control of your <br> professional destiny</h1>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
-                                <a href="appointments.html" class="as_btn">Appointment</a>
-                            </div>
-                            <div class="as_banner_detail">
-                                <h5>What’s Your Sign ?</h5>
-                                <h1>Read Your Daily <br> Horoscope Today</h1>
-                                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididuesdeentiut labore etesde dolore magna aliquapspendisse and the gravida.</p>
-                                <a href="javascript:;" class="as_btn">Appointment</a>
-                            </div>
-                            <div class="as_banner_detail">
-                                <h5>What’s Your Sign ?</h5>
-                                <h1>Read Your Daily <br> Horoscope Today</h1>
-                                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididuesdeentiut labore etesde dolore magna aliquapspendisse and the gravida.</p>
-                                <a href="javascript:;" class="as_btn">Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="as_banner_img text-center">
-                            <img src="assets/images/hand_bg.png" alt="" class="img-responsive as_hand_bg">
-                            <img src="assets/images/hand.png" alt="" class="img-responsive as_hand">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  -->
+       <section>
+        <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
 
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="4"></button>
+  </div>
 
-
-<div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
-
+  <!-- Slides -->
   <div class="carousel-inner">
 
-    <div class="carousel-item active" style="height:100vh; background:url('./assets/images/banner/banner-1.jpg') center/cover;">
-      <div style=" height:100%; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff;">
-        <div>
-          <!-- <h1 style="font-size:3rem; font-weight:700; padding-top: 20px;">Vastu Solutions</h1>
-          <p style="font-size:1.2rem;">Balance your home and workplace with expert Vastu guidance</p> -->
-        </div>
-      </div>
+    <div class="carousel-item active">
+      <img src="assets/images/banner/banner-3.jpg" class="d-block w-100 banner-img">
     </div>
 
-    <div class="carousel-item" style="height:100vh; background:url('./assets/images/banner/banner-2.jpg') center/cover;">
-      <div style="height:100%; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff;">
-        <div>
-          
-        </div>
-      </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner/banner-2.jpg" class="d-block w-100 banner-img">
     </div>
 
-    <div class="carousel-item" style="height:100vh; background:url('./assets/images/banner/banner-3.jpg') center/cover;">
-      <div style="height:100%; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff;">
-        <div>
-        
-        </div>
-      </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner/banner-4.jpg" class="d-block w-100 banner-img">
     </div>
 
-     <div class="carousel-item" style="height:100vh; background:url('./assets/images/banner/banner-4.jpg') center/cover;">
-      <div style="height:100%; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff;">
-        <div>
-        
-        </div>
-      </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner/banner-1.jpg" class="d-block w-100 banner-img">
     </div>
 
- <div class="carousel-item" style="height:100vh; background:url('./assets/images/banner/banner-5.jpg') center/cover;">
-      <div style="height:100%; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff;">
-        <div>
-          
-        </div>
-      </div>
+    <div class="carousel-item">
+      <img src="assets/images/banner/banner-5.jpg" class="d-block w-100 banner-img">
     </div>
 
   </div>
 
+  <!-- Controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
@@ -161,6 +115,30 @@
   </button>
 
 </div>
+
+<style>
+/* Desktop */
+.banner-img{
+  width:100%;
+  height:100vh;
+  object-fit: cover;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .banner-img{
+    height:auto;
+    object-fit: contain;
+    background:#000;
+  }
+}
+</style>
+       </section> 
+
+
+
+
+
 <!-- about Us -->
         <section class="as_about_wrapper as_padderTop80 as_padderBottom80">
             <div class="container">
@@ -629,7 +607,7 @@ Your quick response and the simple yet powerful solutions you offered have compl
                                     <li><a href="about.html"> About Us</a></li>
 
                                     <li><a href="astrology.html"> Astrology</a></li>
-                                    <li><a href="appointment.html"> Appointment</a></li>
+                                    <li><a href="knowledge-bank.html">Knowledge Bank</a></li>
                                     <li><a href="contact.html"> Contact Us</a></li>
                                 </ul>
                                 </div>
@@ -682,7 +660,7 @@ Your quick response and the simple yet powerful solutions you offered have compl
                     </div>
 
                     <div class="as_copyright_wrapper text-center">
-                        <p>Copyright &copy; 2026 Astrology. All Right Reserved.</p>
+                        <p>Copyright@ 2026 Vastuprasad. All Right Reserved. Designed and Developed by <a href="https://saturnwebmedia.com/" target="_blank">Saturn Web Media.</a></p>
                     </div> 
                 </div>
             </div>
